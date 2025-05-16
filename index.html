@@ -4,43 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chocolate</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&400...700display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <header>
-      <nav>
-        <a href="/">Simply chocolate</a>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">How it’s made?</a></li>
-          <li><a href="/">Chocolate is loved</a></li>
+    <header class="header-page">
+      <nav class="header-navigation">
+        <a class="header-logo" href="/">
+          <span class="header-logo-italic">Simply</span> chocolate</a
+        >
+        <ul class="header-menu">
+          <li><a class="header-menu-link" href="/">How it’s made?</a></li>
+          <li><a class="header-menu-link" href="/">Chocolate is loved</a></li>
+          <li><a class="header-menu-link" href="/">Home</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="/">How it’s made</a>
-        <a href="/">scroll down</a>
+        <button class="hero-btn btn" type="button">Buy now</button>
+        <button class="hero-anchor-link btn" type="button">
+          How it’s made
+        </button>
+        <a class="hero-crroll-link" href="/">scroll down</a>
       </section>
-      <section>
+      <section class="feature">
         <h2 hidden>Feature</h2>
-        <ul>
-          <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+        <ul class="feature-list">
+          <li class="feature-item">
+            <h3 class="feature-subtitle">Unsurpassed taste</h3>
+            <p class="feature-item-text">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
-            <h3>Affordable price</h3>
-            <p>
+          <li class="feature-item">
+            <h3 class="feature-subtitle">Affordable price</h3>
+            <p class="feature-item-text">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -48,9 +67,9 @@
               affordable luxury today.
             </p>
           </li>
-          <li>
-            <h3>Own production</h3>
-            <p>
+          <li class="feature-item">
+            <h3 class="feature-subtitle">Own production</h3>
+            <p class="feature-item-text">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -59,40 +78,57 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>It all adds up to one exceptional taste sensation</h2>
-        <p>
+      <section class="ingredients">
+        <h2 class="ingredients-title">
+          It all adds up to one exceptional
+          <span class="ingredients-title-part">taste</span> sensation
+        </h2>
+        <p class="ingredients-title-text">
           At Simply Chocolate, we believe that the secret to exceptional
           chocolate is in the details. From the sourcing of the finest
           ingredients to the careful crafting of each individual piece, every
           step of our process adds up to one exceptional taste sensation.
         </p>
-        <ul>
-          <li>
+        <ul class="ingredients-list">
+          <li class="ingredients-item">
             <img
+              class="ingredients-img"
               src="./image/1.jpg"
               alt="milk chocolate"
               width="206"
               height="160"
             />
-            <h4>milk chocolate</h4>
+            <h4 class="ingredients-list-subtitle">milk chocolate</h4>
           </li>
-          <li>
-            <img src="./image/2.jpg" alt="milk" width="206" height="160" />
-            <h4>milk</h4>
-          </li>
-          <li>
-            <img src="./image/3.jpg" alt="nuts" width="206" height="160" />
-            <h4>nuts</h4>
-          </li>
-          <li>
+          <li class="ingredients-item">
             <img
+              class="ingredients-img"
+              src="./image/2.jpg"
+              alt="milk"
+              width="206"
+              height="160"
+            />
+            <h4 class="ingredients-list-subtitle">milk</h4>
+          </li>
+          <li class="ingredients-item">
+            <img
+              class="ingredients-img"
+              src="./image/3.jpg"
+              alt="nuts"
+              width="206"
+              height="160"
+            />
+            <h4 class="ingredients-list-subtitle">nuts</h4>
+          </li>
+          <li class="ingredients-item">
+            <img
+              class="ingredients-img"
               src="./image/4.jpg"
               alt="semi - sweet chocolate"
               width="206"
               height="160"
             />
-            <h4>semi - sweet chocolate</h4>
+            <h4 class="ingredients-list-subtitle">semi - sweet chocolate</h4>
           </li>
         </ul>
       </section>
@@ -192,7 +228,7 @@
         <ul>
           <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
           <li>
-            <a href="mailto:simplycthаoc@gmail.com">simplycthаoc@gmail.com</a>
+            <a href="mailto:simplycthaoc@gmail.com">simplycthaoc@gmail.com</a>
           </li>
         </ul>
       </address>
