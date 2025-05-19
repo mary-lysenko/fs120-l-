@@ -1,15 +1,23 @@
 body {
     font-family: "Montserrat", sans-serif;
-    background: #fafafa;
+    background: #ececec;
 }
 
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 button { 
@@ -18,6 +26,19 @@ button {
 
 address {
     font-style: normal;
+}
+
+.container {
+    width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 .section-title {
@@ -73,7 +94,16 @@ address {
 
 .hero {
     background-color: #1e1823;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 72px;
 }
+
+.hero-wrapper {
+    padding: 380px 40px 40px 40px;
+}
+
 
 .hero-title {
     font-weight: 500;
@@ -81,6 +111,8 @@ address {
     line-height: 1.21429;
     letter-spacing: -0.03em;
     color: #fff;
+    margin-bottom: 32px;
+    max-width: 484px;
 }
 
 .hero-btn {
@@ -117,6 +149,8 @@ address {
 
 .feature {
     background: #1e1823;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .feature-list {
@@ -131,6 +165,7 @@ address {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
+    margin-bottom: 18px;
 }
 
 .feature-item-text {
@@ -142,11 +177,14 @@ address {
 /* ---------TASTE---------- */
 
 .taste {
-
+padding-top: 100px;
+padding-bottom: 50px;
 }
 
 .taste-title {
- 
+ max-width: 411px;
+ margin: 0 auto;
+ margin-bottom: 28px;
 }
 
 .taste-title-text {
@@ -156,6 +194,9 @@ address {
     letter-spacing: -0.02em;
     text-align: center;
     color: #111;
+    max-width: 486px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .taste-list {
@@ -163,7 +204,9 @@ address {
 }
 
 .taste-item {
-
+border: 1px solid #fd9222;
+padding: 28px 32px;
+border-radius: 15px;
 }
 
 .taste-image {
@@ -182,7 +225,8 @@ address {
 /* ---------MADE---------- */
 
 .made {
-
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 .made-title {
@@ -219,7 +263,8 @@ address {
 /* ---------REVIEWS---------- */
 
 .reviews {
-
+padding-top: 50px;
+padding-bottom: 100px;
 }
 
 .reviews-title {
@@ -268,6 +313,8 @@ address {
 
 .footer {
     background-color: #1e1823;
+    padding-top: 50px;
+    padding-bottom: 86px;
 }
 
 .footer-title {
